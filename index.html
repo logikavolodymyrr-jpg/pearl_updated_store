@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pearl Jewelry Store</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>PEARL</h1>
+    <p>Ювелірний магазин преміум класу</p>
+</header>
+
+<nav>
+    <a href="#about">Про нас</a>
+    <a href="#products">Асортимент</a>
+    <a href="#materials">Матеріали</a>
+    <a href="#cart">Кошик</a>
+    <a href="#contact">Контакти</a>
+    <a href="#about">Про нас</a>
+    <a href="#products">Асортимент</a>
+    <a href="#materials">Матеріали</a>
+    <a href="#contact">Контакти</a>
+</nav>
+
+<div class="container">
+
+<section id="about">
+    <h2>Про бренд</h2>
+    <p>PEARL — сучасний ювелірний бренд, що створює елегантні прикраси.</p>
+</section>
+
+<section id="products">
+    <h2>Асортимент</h2>
+    <div class="grid" id="categoryGrid">
+        <div class="card" data-category="rings">💍 Кільця</div>
+        <div class="card" data-category="necklaces">📿 Кольє</div>
+        <div class="card" data-category="earrings">🥂 Сережки</div>
+        <div class="card" data-category="bracelets">⌚ Браслети</div>
+    </div>
+
+    <h3 id="categoryTitle"></h3>
+    <div class="grid" id="productGrid"></div>
+</section>
+
+<section id="materials">
+    <h2>Матеріали</h2>
+    <ul>
+        <li>Золото</li>
+        <li>Срібло 925</li>
+        <li>Діаманти</li>
+        <li>Камені</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Контакти</h2>
+    <p>Email: pearl@example.com</p>
+    <p>Instagram: @pearl_jewelry</p>
+</section>
+
+</div>
+
+
+<section id="cart">
+    <h2>Кошик</h2>
+    <div id="cartItems"></div>
+    <h3 id="cartTotal">Всього: 0$</h3>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
